@@ -1,689 +1,676 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="jerome.ico" type="image/x-icon">
-    <title>JeromeJose CV</title>
-    <meta name="description" content="JeromeJose CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience." />
-
-    <meta property="og:title" content="Website Portfolio Web Developer ">
-    <meta property="og:description" content="Web Portfolio Web Developer Jerome Jose">
-    <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerome Jose - Software Engineer</title>
+    <meta name="description" content="Jerome Jose - Results-oriented Software Engineer with over 10 years of experience designing and delivering modern, secure, and highly scalable web applications on the Microsoft stack.">
+    <meta name="keywords" content="Software Engineer, C#, Azure, .NET Core, Dynamics 365, Terraform, London">
+    <meta name="author" content="Jerome Jose">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Jerome Jose - Software Engineer">
+    <meta property="og:description" content="Results-oriented Software Engineer with over 10 years of experience designing and delivering modern, secure, and highly scalable web applications on the Microsoft stack">
+    <meta property="og:image" content="images/jeromejose.jpg">
     <meta property="og:url" content="https://web-jeromejose.github.io">
-
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/aos.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles/main.css" rel="stylesheet">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jerome Jose - Software Engineer">
+    <meta name="twitter:description" content="Results-oriented Software Engineer with over 10 years of experience designing and delivering modern, secure, and highly scalable web applications on the Microsoft stack">
+    <meta name="twitter:image" content="images/jeromejose.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="jerome.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/modern.css">
 </head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Jerome Jose</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-<body id="top">
-    <header>
-        <div class="profile-page sidebar-collapse">
-            <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
-                <div class="container">
-                    <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">JeromeJose CV</a>
-                        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Jerome Jose</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Software Engineer</h2>
+                    <p class="hero-description">
+                        Results-oriented Software Engineer with over 10 years of experience designing and delivering modern, 
+                        secure, and highly scalable web applications on the Microsoft stack. Deep expertise in C#, .NET Core/ASP.NET, 
+                        SQL Server, and Dynamics 365 integrations, combined with strong mastery of Azure cloud services.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="CV-JeromeJose-2025.pdf" class="btn btn-secondary" target="_blank">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
                     </div>
-                    <div class="collapse navbar-collapse justify-content-end" id="navigation">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+                </div>
+                <div class="hero-image">
+                    <img src="images/jeromejose.jpg" alt="Jerome Jose" class="profile-image">
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <a href="#about" class="scroll-down">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                                        <div class="about-text">
+                    <h3>Software Engineer with 10+ Years of Experience</h3>
+                    <p>
+                        I'm a results-oriented Software Engineer with over 10 years of experience designing and delivering modern, 
+                        secure, and highly scalable web applications on the Microsoft stack. Deep expertise in C#, .NET Core/ASP.NET, 
+                        SQL Server, and Dynamics 365 integrations, combined with strong mastery of Azure cloud services.
+                    </p>
+                    <p>
+                        Proven leader of cross-functional teams, having spearheaded Dynamics 365 migrations, built ETL pipelines, 
+                        and automated complex business processes. Passionate about translating complex business requirements into 
+                        robust, cloud-native solutions that drive efficiency and innovation.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>10+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>20+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>100%</h4>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <h4>Personal Information</h4>
+                        <ul>
+                            <li><strong>Name:</strong> Jerome Jose</li>
+                            <li><strong>Email:</strong> london.jeromejose@gmail.com</li>
+                            <li><strong>Location:</strong> London, United Kingdom</li>
+                            <li><strong>Languages:</strong> English</li>
+                            <li><strong>Availability:</strong> Open to opportunities</li>
                         </ul>
                     </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/jeromefloresjose/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/jeromejose" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:london.jeromejose@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
                 </div>
-            </nav>
+            </div>
         </div>
-    </header>
-    <div class="page-content">
-        <div>
-            <div class="profile-page">
-                <div class="wrapper">
-                    <div class="page-header page-header-small" filter-color="green">
-                        <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg');"></div>
-                        <div class="container">
-                            <div class="content-center">
-                                <div class="cc-profile-image">
-                                    <a href="#">
-                                        <!-- <img src="images/Jerome.jpg" alt="Image"/> -->
-                                        <img src="images/anthony.jpg" width="250" height="250" />
-                                    </a>
-                                </div>
-                                <div class="h2 title">Jerome Jose</div>
-                                <p class="category text-white">Software Engineer, Full Stack Web Developer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in"
-                                    data-aos-anchor="data-aos-anchor">Download CV</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Backend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>C# (.NET Core/ASP.NET)</span>
+                                <span>98%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 98%"></div>
                             </div>
                         </div>
-                        <div class="section">
-                            <div class="container">
-                                <div class="button-container">
-
-                                    <!-- <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/jirium.geronimo" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a> -->
-                                    <!--  <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a> -->
-                                    <a class="btn btn-default btn-round btn-lg btn-icon" href="https://drive.google.com/open?id=1RAAY4rOHRxdgoEKy6OrgTDwEokvhhyDF" rel="tooltip" title="Follow me on Google+"><i class="fa fa-google-plus"></i></a>
-                                    <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/jeromefloresjose/" rel="tooltip" title="Follow me on LinkedIn"><i class="fa fa-linkedin"></i></a></div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>SQL Server</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Entity Framework</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Azure Cloud Services</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Azure Functions & API Management</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Terraform & Azure DevOps</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Frontend & Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Dynamics 365 & Power Platform</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>React.js</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript/TypeScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="section" id="about">
-                <div class="container">
-                    <div class="card" data-aos="fade-up" data-aos-offset="10">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-12">
-                                <div class="card-body">
-                                    <div class="h4 mt-0 title">About</div>
-                                    <p>Software Engineer with 7+ years of expertise in C# development and Azure cloud services, delivering high-quality web applications across diverse industries. Demonstrated success in driving performance and efficiency improvements through roles at top companies. Proficient in Agile methodologies, with a strong focus on designing scalable solutions to solve complex business problems.
-
-                                        <a href=" https://drive.google.com/open?id=1RAAY4rOHRxdgoEKy6OrgTDwEokvhhyDF" target="_blank">Learn More</a>
-
-
-                                        
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-12">
-                                <div class="card-body">
-                                    <div class="h4 mt-0 title">Basic Information</div>
-                                    <!-- <div class="row">
-                                        <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-                                        <div class="col-sm-8">29</div>
-                                    </div> -->
-                                    <div class="row mt-3">
-                                        <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-                                        <div class="col-sm-8">mesekarome@gmail.com</div>
-                                    </div>
-                                    <div class="row mt-3">
-                                        <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
-                                        <div class="col-sm-8">+44</div>
-                                    </div>
-                                    <div class="row mt-3">
-                                        <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-                                        <div class="col-sm-8">London, United Kingdom</div>
-                                    </div>
-                                    <div class="row mt-3">
-                                        <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
-                                        <div class="col-sm-8">English</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section" id="skill">
-                <div class="container">
-                    <div class="h4 text-center mb-4 title"><i class="fa fa-regular fa-folder-open"></i>Professional Skills</div>
-                    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">C#</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 97%;"></div><span class="progress-value"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Azure Cloud Service</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div><span class="progress-value"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">.Net Core</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Testing and Quality Assurance</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Software Architecture</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div><span class="progress-value"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">CI/CD Pipeline Process</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Terraform</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div><span class="progress-value"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Algorithm and Data Structures</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div><span class="progress-value"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Problem-solving/Debugging</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div><span class="progress-value"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Cloud Infrastructure - Web/FunctionApp/APIM/ASB</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 77%;"></div><span class="progress-value"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Databases</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Dynamics 365 - Model Driven App</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section" id="portfolio">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 ml-auto mr-auto">
-                            <div class="h4 text-center mb-4 title"><i class="fa fa-regular fa-folder-open"></i>Portfolio</div>
-                            <div class="nav-align-center">
-                                <ul class="nav nav-pills nav-pills-primary" role="tablist">
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw" aria-hidden="true"></i></a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw" aria-hidden="true"></i></a></li>
-                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#power-apps" role="tablist"><i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw" aria-hidden="true"></i></a></li>
-                                   
-								   <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw" aria-hidden="true"></i></a></li>
-                               
-
-							   </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-content gallery mt-5">
-                        <div class="tab-pane" id="web-development" role="tabpanel">
-                            <div class="ml-auto mr-auto">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#web-development">
-                                                <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">Recent Project</div>
-                                                        <p>Web Development</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#web-development">
-                                                <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">Startup Project</div>
-                                                        <p>Web Development</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#web-development">
-                                                <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">Food Order Project</div>
-                                                        <p>Web Development</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#web-development">
-                                                <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">Web Advertising Project</div>
-                                                        <p>Web Development</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="graphic-design" role="tabpanel">
-                            <div class="ml-auto mr-auto">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#graphic-design">
-                                                <figure class="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">Triangle Pattern</div>
-                                                        <p>Graphic Design</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#graphic-design">
-                                                <figure class="cc-effect"><img src="images/hesa.JPG" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">HESA</div>
-                                                        <p>Website</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#graphic-design">
-                                                <figure class="cc-effect"><img src="images/bag.JPG" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">BuyAGift</div>
-                                                        <p>Website</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#graphic-design">
-                                                <figure class="cc-effect"><img src="images/bag1.JPG" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">BuyAGift</div>
-                                                        <p>Website</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-						<div class="tab-pane" id="power-apps" role="tabpanel">
-                            <div class="ml-auto mr-auto">
-                                <div class="row">
-                                     <div class="col-md-6">
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#Photography">
-                                                <figure class="cc-effect"><img src="images/powerappprt.png" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">Power Apps</div>
-                                                        <p>Dynamics 365</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <!-- <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> -->
-                                            <!-- <a href="#Photography"> -->
-                                                <!-- <figure class="cc-effect"><img src="images/powerappform.png" alt="Image" /> -->
-                                                    <!-- <figcaption> -->
-                                                        <!-- <div class="h4">Logic Apps</div> -->
-                                                        <!-- <p>Resources</p> -->
-                                                    <!-- </figcaption> -->
-                                                <!-- </figure> -->
-                                            <!-- </a> -->
-                                        <!-- </div> -->
-                                    </div>
-									  <div class="col-md-6">
-                                        <!-- <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> -->
-                                            <!-- <a href="#Photography"> -->
-                                                <!-- <figure class="cc-effect"><img src="images/powerappprt.png" alt="Image" /> -->
-                                                    <!-- <figcaption> -->
-                                                        <!-- <div class="h4">Azure Data Factory</div> -->
-                                                        <!-- <p>Azure Portal</p> -->
-                                                    <!-- </figcaption> -->
-                                                <!-- </figure> -->
-                                            <!-- </a> -->
-                                        <!-- </div> -->
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#Photography">
-                                                <figure class="cc-effect"><img src="images/powerappform.png" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">Power Apps</div>
-                                                        <p>Dynamics 365</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-						
-                        <div class="tab-pane active" id="Photography" >
-                            <div class="ml-auto mr-auto">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#Photography">
-                                                <figure class="cc-effect"><img src="images/azure.JPG" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">DevOps</div>
-                                                        <p>Azure Portal</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#Photography">
-                                                <figure class="cc-effect"><img src="images/appservice.png" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">Web App Resources</div>
-                                                        <p>Resources</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-									
-									   <div class="col-md-6">
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#Photography">
-                                                <figure class="cc-effect"><img src="images/adf.png" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">Azure Data Factory</div>
-                                                        <p>Azure Portal</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                            <a href="#Photography">
-                                                <figure class="cc-effect"><img src="images/logicapp.png" alt="Image" />
-                                                    <figcaption>
-                                                        <div class="h4">Logic Apps</div>
-                                                        <p>Resources</p>
-                                                    </figcaption>
-                                                </figure>
-                                            </a>
-                                        </div>
-                                    </div>
-									
-									
-									
-									
-                                  
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section" id="experience">
-                <div class="container cc-experience">
-                    <div class="h4 text-center mb-4 title"><i class="fa fa-duotone fa-briefcase"></i> Work Experience</div>
-
-                    
-
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-experience-header">
-                                    <p>Aug 2022 - <i>present</i></p>
-                                    <div class="h5">BuyAGift, London, United Kingdom </div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body"> 
-                                    <div class="h5">Software Engineer</div>
-                                        
-
-                                        <p>
-                                            <p>I played a key role in enhancing and migrating critical business processes to Dynamics 365, optimizing both front-end and back-end operations. My work has had a measurable impact on improving customer service operations, system integration, and overall efficiency across the organization.</p>
-
-                                            <h6>Key Achievements:</h6>
-                                            <ul>
-                                                <li><strong>Led Dynamics 365 Integration:</strong> Spearheaded the migration of core services from legacy systems to Dynamics 365, streamlining customer service processes, such as voucher reprints, resends, extensions, and refunds. This transition reduced the average handling time (AHT) for customer service agents by up to 10%, improving operational efficiency and customer satisfaction.</li>
-                                                <li><strong>Azure Cloud Solutions:</strong> Developed and deployed C#-based Azure Functions to manage data workflows between Dynamics 365 and existing back-office systems. This allowed seamless integration with Azure API Management, enhancing the scalability and security of our services.</li>
-                                                <li><strong>Data Migration and ETL Projects:</strong> Designed and implemented an ETL process using SQL Server Integration Services (SSIS) and Kingswaysoft to migrate data from Buyagift’s legacy system to Dataverse. This project involved handling complex scenarios like multiple exchanges and diverse voucher creation methods while ensuring data consistency and accuracy.</li>
-                                                <li><strong>Refund Processing Automation:</strong> Built core functionalities for automating refund processes using platforms like Checkout.com, Paypal, and Klarna, which handle 70% of all transactions. This initiative reduced manual work and accelerated refund processing times, ensuring refunds were completed within a 30-day period.</li>
-                                                <li><strong>Resilient Email Features:</strong> Enhanced email handling for voucher reprint and resend operations, ensuring accurate templates are applied to every customer transaction. This resulted in a more consistent customer experience and reduced errors in communication.</li>
-                                                <li><strong>Cross-Functional Collaboration:</strong> Worked closely with various teams, including Customer Service, Frontend Development, and Database Management, to ensure the successful integration of Dynamics 365. Conducted demos and training sessions for customer service teams, improving system adoption and usability.</li>
-                                                <li><strong>System Performance Monitoring:</strong> Monitored system performance during the migration period and addressed issues swiftly to maintain a smooth transition from legacy systems to the cloud-based infrastructure.</li>
-                                            </ul>
-                                            
-                                            <h6>Technologies used:</h6>
-                                            <ul>
-                                                <li>C# for Azure Functions and backend development.</li>
-                                                <li>Azure Cloud Services for managing APIs, scaling services, and automating deployments.</li>
-                                                <li>Dynamics 365/Zendesk/UltimateAI for customer service and operational workflows.</li>
-                                                <li>SQL Server and Dataverse for managing and migrating data.</li>
-                                                <li>Terraform for infrastructure automation, ensuring consistent and secure cloud deployments.</li>
-                                                <li>Checkout.com, Paypal, and Klarna for streamlining financial processes.</li>
-                                            </ul>
-                                            
-                                            <h6>Key Results:</h6>
-                                            <ul>
-                                                <li><strong>33% of Customer Service Workflows Optimized:</strong> Through the automation of voucher processes, CS agents saved an average of 3 minutes per customer, improving their efficiency and enabling faster service delivery.</li>
-                                                <li><strong>Reduction in AHT for Refunds/Payment/Voucher Operation:</strong> A 7-minute reduction in voucher operation handling times, contributing to faster resolution times across all key processes.</li>
-                                                <li><strong>Recognition for Contributions:</strong> Awarded "Employee of the Month" in February 2024 and part of the team nominated for "Team of the Year" within the Moonpig Group for contributions to the Dynamics 365 integration.</li>
-                                            </ul>
-                                            
-
-                                        </p>
-                                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-experience-header">
-                                    <p>April 2021 - Aug 2022</p>
-                                    <div class="h5">Higher Education Statistics Agency - HESA - Cheltenham, United Kingdom </div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">Software Developer</div>
-                                        <p>
-                                            <p>Collaborated closely with Scrum team members throughout the Agile development process, ensuring effective communication and coordination across Jisc's expanded organization. Demonstrated a strong understanding of HESA's systems design within Jisc's broader technology infrastructure, coding software that met both HESA's and Jisc's organizational needs. Coordinated team tasks to achieve sprint objectives, engaging in planning, designing, coding, testing, and documenting programs that aligned with Jisc's strategic goals for higher education data management.</p>
-                                            <p>Stayed current with technologies through training and self-directed learning, leveraging Jisc's resources and expertise in digital solutions for the education sector. My contributions supported the accurate collection and processing of vital higher education data, improving the efficiency and reliability of HESA's systems within the larger Jisc framework. This role involved integrating HESA's data systems with Jisc's broader digital infrastructure for the UK education and research sector.</p>
-                                            
-                                            <h6>Skills:</h6>
-                                            <ul>
-                                                <li><strong>Programming Languages:</strong> Proficient in languages such as Python, Java, or C#.</li>
-                                                <li><strong>Web Development:</strong> Experience with HTML, CSS, JavaScript, and frameworks like React or Angular.</li>
-                                                <li><strong>Database Management:</strong> Knowledge of SQL and experience with relational databases (e.g., PostgreSQL, MySQL).</li>
-                                                <li><strong>Agile Methodologies:</strong> Strong understanding of Scrum practices and tools like Jira or Trello.</li>
-                                                <li><strong>Data Processing:</strong> Familiarity with ETL processes and data analysis tools.</li>
-                                            </ul>
-                                                                                     
-                                        </p>
-                                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-experience-header">
-                                    <p>Aug 2016 - February 2021</p>
-                                    <div class="h5">Saudi German Hospital (MEHCO) - Jeddah</div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">C# Engineer</div>
-                                    <p>
-											<br>o	Designed and developed efficient and maintainable systems aligned with hospital objectives.
-											<br>o	 Collaborated with cross-functional teams to integrate new features and conduct integration tests.
-											<br>o	 Contributed to the design and development of Hospital Information System (HIS), covering patient tracking, billing, employee dashboard, and management reports.
-											<br>o	 Proficient in C#, SSRS/RDL, SQL, Angular/Knockout, and TFS for version control.
-											<br>o	 Experience with on-prem server configuration using IIS. 
-								   </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
- 
-                </div>
-            </div>
-            <!-- <div class="section">
-                <div class="container cc-education">
-                    <div class="h4 text-center mb-4 title">Education</div>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-education-header">
-                                    <p>2007 - 2011</p>
-                                    <div class="h5">Bachelor's Degree</div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">Bachelor of Science in Information Technology</div>
-                                    <p class="category">AMA Computer University</p>
-                                    <p>AMA University is a member of the AMA Education System and the first in IT education and full online education in the Philippines.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div> -->
-           
-           <!--   <div class="section" id="contact">
-                <div class="cc-contact-information" style="background-image: url('images/staticmap.png');">
-                    <div class="container">
-                        <div class="cc-contact">
-                            <div class="row">
-                                <div class="col-md-9">
-                                    <div class="card mb-0" data-aos="zoom-in">
-                                        <div class="h4 text-center title">Contact Me</div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="card-body">
-                                                    <form action="https://formspree.io/mwkobonj" method="POST">
-                                                        <div class="p pb-3"><strong>Feel free to contact me </strong></div>
-                                                        <div class="row mb-3">
-                                                            <div class="col">
-                                                                <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
-                                                                    <input class="form-control" type="text" name="name" placeholder="Name" required="required" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mb-3">
-                                                            <div class="col">
-                                                                <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                                                                    <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mb-3">
-                                                            <div class="col">
-                                                                <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                                                    <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mb-3">
-                                                            <div class="col">
-                                                                <div class="form-group">
-                                                                    <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col">
-                                                                <button class="btn btn-primary" type="submit">Send</button>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="card-body">
-                                                    <p class="mb-0"><strong>Address </strong></p>
-                                                    <p class="pb-2"><strike>Eastbourne</strike> London, UK</p>
-
-                                                    <p class="mb-0"><strong>Email</strong></p>
-                                                    <p>mesekarome@gmail.com</p>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-			
-			
         </div>
-    </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer</h3>
+                            <span class="company">Moonpig, London, UK</span>
+                            <span class="period">2022 - Present</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Senior engineer driving customer experience innovation through cloud-native solutions using Dynamics 365, 
+                            Azure serverless, and Terraform. Delivered critical platform modernizations and scalable APIs for voucher 
+                            operations, cutting handling times by 33%.</p>
+                            <ul>
+                                <li>Dynamics 365 modernization: Migrated legacy workflows, saving 3+ mins per CS call</li>
+                                <li>Built high-throughput .NET 8 Azure Functions for booking and refund pipelines</li>
+                                <li>Published APIs via Azure API Management with OAuth2 and managed identities</li>
+                                <li>Authored Terraform modules and automated Azure DevOps pipelines, reducing failure rates by 70%</li>
+                                <li>Recognized as Employee of the Month (Feb 2024) and part of team nominated for Team of the Year</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span class="tech-tag">C# (.NET Core)</span>
+                                <span class="tech-tag">Azure Functions</span>
+                                <span class="tech-tag">Dynamics 365</span>
+                                <span class="tech-tag">Terraform</span>
+                                <span class="tech-tag">Azure DevOps</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Developer</h3>
+                            <span class="company">Higher Education Statistics Agency (HESA), Cheltenham, UK</span>
+                            <span class="period">May 2021 - August 2022</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Delivered software solutions aligned with both HESA's and Jisc's strategic goals, integrating higher education 
+                            data systems within Jisc's digital infrastructure. Designed, coded, tested, and documented applications to support 
+                            efficient and accurate data processing for the UK education sector.</p>
+                            <ul>
+                                <li>Developed microservices-based Issue Management System using Entity Framework and Azure Functions</li>
+                                <li>Implemented role-based access, integrated communication, and reporting tools</li>
+                                <li>Boosted data accuracy and transparency across UK educational institutions</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">Azure Services</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer</h3>
+                            <span class="company">Saudi German Hospital (MEHCO), Jeddah, KSA</span>
+                            <span class="period">Jul 2016 - Feb 2021</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Designed and developed a full-scale Hospital Information System (HIS) using C#, Azure, and Azure SQL, 
+                            integrating modules for patient management, scheduling, billing, and reporting.</p>
+                            <ul>
+                                <li>Led data migration, EMR/LIS integration, and user training</li>
+                                <li>Enhanced real-time data access, system reliability, and healthcare delivery</li>
+                                <li>Used C#, SSRS/RDL, SQL, Angular/Knockout</li>
+                                <li>Configured on-prem server using IIS</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">Azure</span>
+                                <span class="tech-tag">SQL Server</span>
+                                <span class="tech-tag">SSRS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Developer</h3>
+                            <span class="company">NuWorks Interactive Labs, Philippines</span>
+                            <span class="period">Apr 2014 - 2016</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Built multiple classified and e-commerce websites using CodeIgniter, Laravel (backend), and Angular (frontend), 
+                            with dynamic CMS support for diverse client needs.</p>
+                            <ul>
+                                <li>Delivered client-specific features and improved performance</li>
+                                <li>Ensured responsive, standards-compliant web solutions</li>
+                                <li>Certificate of Appreciation – Employee of the Year (2015)</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">CodeIgniter</span>
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">Angular</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>System Analyst Programmer</h3>
+                            <span class="company">Philweb Corporation, Philippines</span>
+                            <span class="period">March 2011 - 2014</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Developed internal CMS systems using PHP (CodeIgniter, Yii, Laravel) to manage betting orders, 
+                            customer data, and kiosk operations across 100+ branches.</p>
+                            <ul>
+                                <li>Integrated real-time prize reporting and admin tools</li>
+                                <li>Ensured operational efficiency and centralized management</li>
+                                <li>Created Computerized Web Driving Eye Test System using C#/ASP.NET</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">CodeIgniter</span>
+                                <span class="tech-tag">Yii</span>
+                                <span class="tech-tag">C#/ASP.NET</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="azure">Azure Solutions</button>
+                <button class="filter-btn" data-filter="dynamics">Dynamics 365</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="ai">AI & Automation</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="azure">
+                    <div class="portfolio-image">
+                        <img src="images/azure.JPG" alt="Azure DevOps">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Azure DevOps</h4>
+                                <p>Cloud Infrastructure & CI/CD</p>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="azure">
+                    <div class="portfolio-image">
+                        <img src="images/appservice.png" alt="Web App Resources">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Web App Resources</h4>
+                                <p>Azure App Service Management</p>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="azure">
+                    <div class="portfolio-image">
+                        <img src="images/adf.png" alt="Azure Data Factory">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Azure Data Factory</h4>
+                                <p>ETL & Data Pipeline Solutions</p>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="azure">
+                    <div class="portfolio-image">
+                        <img src="images/logicapp.png" alt="Logic Apps">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Logic Apps</h4>
+                                <p>Workflow Automation</p>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="dynamics">
+                    <div class="portfolio-image">
+                        <img src="images/powerappprt.png" alt="Power Apps">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Power Apps</h4>
+                                <p>Dynamics 365 Integration</p>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="dynamics">
+                    <div class="portfolio-image">
+                        <img src="images/powerappform.png" alt="Power Apps Forms">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Power Apps Forms</h4>
+                                <p>Custom Business Applications</p>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="ai">
+                    <div class="portfolio-image">
+                        <img src="images/azure.JPG" alt="AI Chatbot Integration">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Ultimate AI Chatbot Integration</h4>
+                                <p>Customer Service Automation</p>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="dynamics">
+                    <div class="portfolio-image">
+                        <img src="images/azure2.JPG" alt="Dynamics 365 Modernization">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Back Office & Dynamics 365 Modernization</h4>
+                                <p>Legacy System Migration</p>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="images/project-1.jpg" alt="Issue Management System">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Issue Management System</h4>
+                                <p>Microservices Architecture</p>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="images/project-2.jpg" alt="Hospital Information System">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h4>Hospital Information System</h4>
+                                <p>Full-Scale Healthcare Solution</p>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>london.jeromejose@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>London, United Kingdom</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>jeromefloresjose</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
-       <!-- <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link"
-                href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
-        <div class="h4 title text-center">Jerome Jose</div>
-		-->
-        <div class="text-center text-muted">
-            <p>&copy; JFJ. All rights reserved 2011.</p>
-            <!-- hitwebcounter Code START -->
-            <a href="https://drive.google.com/file/d/1pFKcz0V92i6aIjQJFc3VPpgR7_OsOteZ/preview" target="_blank">
-                <img src="https://hitwebcounter.com/counter/counter.php?page=7193181&style=0002&nbdigits=6&type=page&initCount=333" title="Free-Counter" Alt="hitwebcounter" border="0">
-            </a>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Jerome Jose. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/jeromefloresjose/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/jeromejose" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:london.jeromejose@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
-    <script src="js/core/jquery.3.2.1.min.js"></script>
-    <script src="js/core/popper.min.js"></script>
-    <script src="js/core/bootstrap.min.js"></script>
-    <script src="js/now-ui-kit.js?v=1.1.0"></script>
-    <script src="js/aos.js"></script>
-    <script src="scripts/main.js"></script>
-</body>
 
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="scripts/modern.js"></script>
+</body>
 </html>
